@@ -1,0 +1,44 @@
+[ 2017-03-04T19:51:50+08:00 ] 127.0.0.1 /project/tp_boot/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0551s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tp_article` ORDER BY time desc LIMIT 0,9   [ RunTime:0.0284s ]
+SQL: SELECT `id`,`title`,`desc` FROM `tp_article` LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_lunbo` [ RunTime:0.0168s ]
+SQL: SELECT `id`,`picture`,`title` FROM `tp_lunbo` LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `tp_link` WHERE ( sort=0 )  [ RunTime:0.0119s ]
+SQL: SELECT * FROM `tp_link` WHERE ( sort=1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_link` WHERE ( sort=2 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE `catename` = '人生哲理' LIMIT 0,9   [ RunTime:0.0325s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE `catename` = '励志文章' LIMIT 0,9   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE `catename` = '感情美文' LIMIT 0,9   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE `catename` = '金典美文' LIMIT 0,9   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE `catename` = '人生感情' LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`picture`,`title` FROM `tp_lunbo` ORDER BY time desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `tp_lunbo` ORDER BY time desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `tp_article` ORDER BY time desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `tp_article` LIMIT 5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.016368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.016502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001456s ]
+

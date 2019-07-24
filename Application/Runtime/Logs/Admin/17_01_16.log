@@ -1,0 +1,24 @@
+[ 2017-01-16T13:22:20+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/Login/index
+ERR: 非法操作:Login
+
+[ 2017-01-16T13:22:36+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/Login/index
+ERR: 非法操作:Login
+
+[ 2017-01-16T13:22:37+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/Login/index
+ERR: 非法操作:Login
+
+[ 2017-01-16T13:22:40+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/Login/index
+ERR: 非法操作:Login
+
+[ 2017-01-16T13:22:53+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/Login/index
+ERR: 非法操作:Login
+
+[ 2017-01-16T14:09:33+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Login/Login/verify
+ERR: 非法操作:Login
+
+[ 2017-01-16T20:26:26+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Login/index.html
+ERR: Think\Model:login方法不存在！
+
+[ 2017-01-16T22:43:59+08:00 ] 127.0.0.1 /project/tp_boot/admin/index.php
+ERR: 无法加载控制器:Index.php
+

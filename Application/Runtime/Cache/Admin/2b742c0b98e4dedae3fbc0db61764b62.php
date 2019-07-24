@@ -1,0 +1,117 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html class="box-html">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Examples</title>
+  <!-- 设置 viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- IE浏览器 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- 兼容国产浏览器的高速模式 -->
+  <meta name="renderer" content="webkit">
+  <!-- 引入 Bootstrap 的 CSS 文件 -->
+  <link href="/tp_news/Public/Admin/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- 引入 plugin CSS的样式-->
+  <link href="/tp_news/Public/Admin/plugin/Font-Awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- 引入自定义样式 -->
+  <link href="/tp_news/Public/Admin/css/style.css" rel="stylesheet">
+</head>
+<body>
+<section id="container">
+  <section class="wrapper">
+    <!--第一次-->
+    <div class="row">
+      <div class="col-sm-12 col-xs-12">
+        <div class="panel">
+          <div class="panel-body">
+            <ul class="summary-list">
+              <li><a href="#"><i class="icon-shopping-cart"></i>1 Purchase</a></li>
+              <li><a href="#"><i class="icon-envelope-alt"></i>15 Email</a></li>
+              <li><a href="#"><i class="icon-picture"></i>20 images</a></li>
+              <li><a href="#"><i class="icon-tags"></i>20 Sales</a></li>
+              <li><a href="#"><i class="icon-microphone"></i>25 Audio</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!--访问列表-->
+      <!--<div class="col-sm-6">-->
+        <!--<div class="panel">-->
+          <!--<div class="panel-heading">-->
+            <!--<ul class="nav nav-tabs">-->
+              <!--<li><a href="#home" data-toggle="tab" >Home</a></li>-->
+              <!--<li><a href="#About" data-toggle="tab" >About</a></li>-->
+              <!--<li><a href="#Profile" data-toggle="tab" >Profile</a></li>-->
+              <!--<li><a href="#Contact" data-toggle="tab" >Contact</a></li>-->
+            <!--</ul>-->
+          <!--</div>-->
+          <!--<div class="panel-body">-->
+            <!--<div class="tab-content">-->
+              <!--<div class="tab-pane active" id="home">Home</div>-->
+              <!--<div class="tab-pane" id="About">About</div>-->
+              <!--<div class="tab-pane" id="Profile">Profile</div>-->
+              <!--<div class="tab-pane" id="Contact">Contact</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+      <!--新闻列表-->
+      <!--<div class="col-sm-6">-->
+        <!--<div class="panel">-->
+          <!--<div class="panel-heading">Form LineOne</div>-->
+          <!--<div class="panel-body">-->
+            <!--<table class="table table-striped table-advance table-hover border-top">-->
+              <!--<thead class="tab-icon"><tr>-->
+                <!--<th><i class="icon-bullhorn"></i>日期</th>-->
+                <!--<th><i class="icon-user"></i>用户</th>-->
+                <!--<th><i class="icon-file-alt"></i>标题</th>-->
+                <!--<th><i class="icon-edit"></i>联系</th>-->
+                <!--<th><i class=" icon-cogs"></i>备注</th>-->
+              <!--</tr></thead>-->
+              <!--<tbody>-->
+              <!--<tr>-->
+                <!--<td>1</td>-->
+                <!--<td>嘎啦儿</td>-->
+                <!--<td>正在制作PHP后端模板</td>-->
+                <!--<td>13456789</td>-->
+                <!--<td>admin</td>-->
+              <!--</tr>-->
+              <!--</tbody>-->
+            <!--</table>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    </div>
+    <!--<div class="row">-->
+      <!--&lt;!&ndash;日历列表&ndash;&gt;-->
+      <!--<div class="col-sm-6">-->
+        <!--<div class="calendar-left">-->
+
+        <!--</div>-->
+        <!--<div class="calendar-right">-->
+          <!--<p>Deadline : 15 August</p>-->
+          <!--<p>Deadline : 15 August</p>-->
+          <!--<p>Deadline : 15 August</p>-->
+        <!--</div>-->
+      <!--</div>-->
+      <!--&lt;!&ndash;邮件列表&ndash;&gt;-->
+      <!--<div class="col-sm-6">-->
+
+      <!--</div>-->
+    <!--</div>-->
+
+  </section>
+</section>
+
+<script src="/tp_news/Public/Admin/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/tp_news/Public/Admin/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/tp_news/Public/Admin/js/index.js" type="text/javascript"></script>
+<script>
+  //我们自己的代码
+</script>
+</body>
+</html>

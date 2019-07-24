@@ -1,0 +1,16 @@
+[ 2017-02-01T16:39:03+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Link/addCar
+ERR: 非法操作:addCar
+
+[ 2017-02-01T20:27:16+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Link/carEdit/id/2
+ERR: 非法操作:carEdit
+
+[ 2017-02-01T20:44:01+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Link/addCar
+ERR: 非法操作:addCar
+
+[ 2017-02-01T20:44:41+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Link/addList
+ERR: 非法操作:addList
+
+[ 2017-02-01T21:43:10+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/link/linkList.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'desc ) LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_link` WHERE ( time desc ) LIMIT 0,10  
+

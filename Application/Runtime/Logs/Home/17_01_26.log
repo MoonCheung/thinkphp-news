@@ -1,0 +1,36 @@
+[ 2017-01-26T14:23:53+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Home/Article/other/id/44
+ERR: 模板不存在:./Application/Home/View/Article/other.html
+
+[ 2017-01-26T14:24:01+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Home/Article/other/id/44
+ERR: 模板不存在:./Application/Home/View/Article/other.html
+
+[ 2017-01-26T14:24:05+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Home/Article/other/id/44
+ERR: 模板不存在:./Application/Home/View/Article/other.html
+
+[ 2017-01-26T14:24:12+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Home/Article/other/id/44
+ERR: 模板不存在:./Application/Home/View/Article/other.html
+
+[ 2017-01-26T15:02:35+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Home/article
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id= ) 
+
+[ 2017-01-26T15:02:45+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Home/article
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id= ) 
+
+[ 2017-01-26T15:11:21+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Home/Article/index/id/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'index )' at line 1
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=index ) 
+
+[ 2017-01-26T15:13:34+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Home/Article/index/id/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'index )' at line 1
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=index ) 
+
+[ 2017-01-26T15:13:37+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Home/Article/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id= ) 
+
+[ 2017-01-26T15:13:41+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Home/Article/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id= ) 
+

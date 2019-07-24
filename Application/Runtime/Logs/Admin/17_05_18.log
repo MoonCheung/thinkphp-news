@@ -1,0 +1,60 @@
+[ 2017-05-18T10:36:40+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/new/userList.html
+ERR: 1054:Unknown column 'ag.titleLEFT' in 'on clause'
+ [ SQL语句 ] : SELECT u.username,u.sex,u.phone,u.email,u.lock,aga.group_id,ag.title FROM tp_auth_group_access aga RIGHT JOIN tp_admin u ON aga.uid=u.id INNER JOIN tp_auth_group ag ON aga.group_id=ag.titleLEFT  
+
+[ 2017-05-18T10:38:24+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/new/userList.html
+ERR: 1054:Unknown column 'ag.idLEFT' in 'on clause'
+ [ SQL语句 ] : SELECT u.username,u.sex,u.phone,u.email,u.lock,aga.group_id,ag.title FROM tp_auth_group_access aga RIGHT JOIN tp_admin u ON aga.uid=u.id INNER JOIN tp_auth_group ag ON aga.group_id=ag.idLEFT  
+
+[ 2017-05-18T10:38:25+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/new/userList.html
+ERR: 1054:Unknown column 'ag.idLEFT' in 'on clause'
+ [ SQL语句 ] : SELECT u.username,u.sex,u.phone,u.email,u.lock,aga.group_id,ag.title FROM tp_auth_group_access aga RIGHT JOIN tp_admin u ON aga.uid=u.id INNER JOIN tp_auth_group ag ON aga.group_id=ag.idLEFT  
+
+[ 2017-05-18T10:38:26+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/new/userList.html
+ERR: 1054:Unknown column 'ag.idLEFT' in 'on clause'
+ [ SQL语句 ] : SELECT u.username,u.sex,u.phone,u.email,u.lock,aga.group_id,ag.title FROM tp_auth_group_access aga RIGHT JOIN tp_admin u ON aga.uid=u.id INNER JOIN tp_auth_group ag ON aga.group_id=ag.idLEFT  
+
+[ 2017-05-18T13:18:43+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/Auth/nodeList.html
+ERR: 模板不存在:./Application/Admin/View/Auth/nodeList.html
+
+[ 2017-05-18T13:18:46+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/Auth/nodeList.html
+ERR: 模板不存在:./Application/Admin/View/Auth/nodeList.html
+
+[ 2017-05-18T13:59:13+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/Auth/nodeList.html
+ERR: 非法操作:nodeList
+
+[ 2017-05-18T13:59:14+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/Auth/addNode.html
+ERR: 非法操作:addNode
+
+[ 2017-05-18T14:00:07+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/Auth/addNode.html
+ERR: 非法操作:addNode
+
+[ 2017-05-18T14:00:08+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/Auth/addNode.html
+ERR: 非法操作:addNode
+
+[ 2017-05-18T14:17:55+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/Auth/add_rule.html
+ERR: Think\Model:addData方法不存在！
+
+[ 2017-05-18T14:27:11+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/Auth/rule_list.html
+ERR: 模板不存在:./Application/Admin/View/Auth/rule_list.html
+
+[ 2017-05-18T15:05:18+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/Auth/rule_list.html
+ERR: 1054:Unknown column 'order_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_auth_rule` ORDER BY order_number is null,id 
+
+[ 2017-05-18T15:15:52+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/Auth/rule_list.html
+ERR: 1054:Unknown column 'order_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tp_auth_rule` ORDER BY order_number is null,id 
+
+[ 2017-05-18T19:24:10+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/Auth/nodeList.html
+ERR: 非法操作:nodeList
+
+[ 2017-05-18T19:24:12+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/Auth/nodeList.html
+ERR: 非法操作:nodeList
+
+[ 2017-05-18T19:24:14+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/Auth/addNode.html
+ERR: 非法操作:addNode
+
+[ 2017-05-18T19:24:15+08:00 ] 127.0.0.1 /project/tp_news/index.php/Admin/Auth/nodeList.html
+ERR: 非法操作:nodeList
+

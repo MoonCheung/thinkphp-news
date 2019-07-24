@@ -1,0 +1,148 @@
+[ 2017-05-08T11:12:43+08:00 ] 127.0.0.1 /project/tp_news/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.1005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0152s ]
+SQL: SELECT * FROM `tp_article` ORDER BY time desc LIMIT 0,9   [ RunTime:0.0274s ]
+SQL: SELECT `id`,`title`,`desc` FROM `tp_article` LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_lunbo` [ RunTime:0.0217s ]
+SQL: SELECT `id`,`picture`,`title` FROM `tp_lunbo` LIMIT 5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `tp_link` WHERE ( sort=0 )  [ RunTime:0.0123s ]
+SQL: SELECT * FROM `tp_link` WHERE ( sort=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_link` WHERE ( sort=2 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE `catename` = '人生哲理' LIMIT 0,9   [ RunTime:0.0176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE `catename` = '励志文章' LIMIT 0,9   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE `catename` = '感情美文' LIMIT 0,9   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE `catename` = '金典美文' LIMIT 0,9   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE `catename` = '人生感情' LIMIT 0,9   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`picture`,`title` FROM `tp_lunbo` ORDER BY time desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `tp_lunbo` ORDER BY time desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `tp_article` ORDER BY time desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `tp_article` LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003712s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003840s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2017-05-08T11:12:55+08:00 ] 127.0.0.1 /project/tp_news/index.php/Home/article/index/id/44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0036s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=44 )  [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_article` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_article` WHERE ( id>44 ) AND `cateid` = 8 ORDER BY id asc LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_article` WHERE ( id<44 ) AND `cateid` = 8 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tp_link` WHERE ( sort=0 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_link` WHERE ( sort=1 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_link` WHERE ( sort=2 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`time` FROM `tp_article` ORDER BY time desc LIMIT 8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2017-05-08T11:13:07+08:00 ] 127.0.0.1 /project/tp_news/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_article` ORDER BY time desc LIMIT 0,9   [ RunTime:0.0015s ]
+SQL: SELECT `id`,`title`,`desc` FROM `tp_article` LIMIT 6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_lunbo` [ RunTime:0.0033s ]
+SQL: SELECT `id`,`picture`,`title` FROM `tp_lunbo` LIMIT 5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `tp_link` WHERE ( sort=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_link` WHERE ( sort=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_link` WHERE ( sort=2 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE `catename` = '人生哲理' LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE `catename` = '励志文章' LIMIT 0,9   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE `catename` = '感情美文' LIMIT 0,9   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE `catename` = '金典美文' LIMIT 0,9   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE `catename` = '人生感情' LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`picture`,`title` FROM `tp_lunbo` ORDER BY time desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `tp_lunbo` ORDER BY time desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `tp_article` ORDER BY time desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `tp_article` LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2017-05-08T11:13:19+08:00 ] 127.0.0.1 /project/tp_news/index.php/Home/article/index/id/51
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0032s ]
+SQL: SELECT tp1.*,tp2.catename as catename FROM tp_article tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=51 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_article` WHERE `id` = 51 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_article` WHERE ( id>51 ) AND `cateid` = 10 ORDER BY id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_article` WHERE ( id<51 ) AND `cateid` = 10 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tp_link` WHERE ( sort=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_link` WHERE ( sort=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_link` WHERE ( sort=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`time` FROM `tp_article` ORDER BY time desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+

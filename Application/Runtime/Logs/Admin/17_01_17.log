@@ -1,0 +1,78 @@
+[ 2017-01-17T11:06:27+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/empty/index.html
+ERR: 无法加载控制器:Empty
+
+[ 2017-01-17T11:20:56+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/empty/1000.html
+ERR: 模板不存在:./Application/Admin/View/Empty/1000.html
+
+[ 2017-01-17T11:23:20+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/hello/1000.html
+ERR: 模板不存在:./Application/Admin/View/Hello/404.html
+
+[ 2017-01-17T11:28:02+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/hello/1000.html
+ERR: 模板不存在:./Application/Admin/View/Hello/404.html
+
+[ 2017-01-17T11:28:34+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/1000.html
+ERR: 非法操作:1000
+
+[ 2017-01-17T11:28:45+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/hello.html
+ERR: 非法操作:hello
+
+[ 2017-01-17T11:28:48+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/hello.html
+ERR: 非法操作:hello
+
+[ 2017-01-17T11:28:49+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/hello.html
+ERR: 非法操作:hello
+
+[ 2017-01-17T11:39:10+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/error.html
+ERR: 非法操作:error
+
+[ 2017-01-17T13:08:53+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/error.html
+ERR: 非法操作:error
+
+[ 2017-01-17T13:08:57+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/error.html
+ERR: 非法操作:error
+
+[ 2017-01-17T13:09:04+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/error/error.html
+ERR: 模板不存在:./Application/Admin/View/Error/404.html
+
+[ 2017-01-17T13:10:10+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/index/error.html
+ERR: 非法操作:error
+
+[ 2017-01-17T13:10:22+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/index/error.html
+ERR: 非法操作:error
+
+[ 2017-01-17T13:11:37+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/index/error.html
+ERR: 非法操作:error
+
+[ 2017-01-17T13:12:48+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Login/login.html
+ERR: 非法操作:login
+
+[ 2017-01-17T13:14:11+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Login/hellow.html
+ERR: 非法操作:hellow
+
+[ 2017-01-17T13:25:38+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Login/sadfasd.html
+ERR: 非法操作:sadfasd
+
+[ 2017-01-17T13:51:58+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/404.html
+ERR: 模板不存在:./Application/Admin/View/Empty/404.html
+
+[ 2017-01-17T13:52:11+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/404.html
+ERR: 模板不存在:./Application/Admin/View/Empty/404.html
+
+[ 2017-01-17T13:52:11+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/404.html
+ERR: 模板不存在:./Application/Admin/View/Empty/404.html
+
+[ 2017-01-17T13:52:12+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/404.html
+ERR: 模板不存在:./Application/Admin/View/Empty/404.html
+
+[ 2017-01-17T13:52:26+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/404.html
+ERR: 模板不存在:./Application/Admin/View/Empty/404.html
+
+[ 2017-01-17T13:52:27+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/404.html
+ERR: 模板不存在:./Application/Admin/View/Empty/404.html
+
+[ 2017-01-17T13:52:35+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Index/505
+ERR: 模板不存在:./Application/Admin/View/Empty/404.html
+
+[ 2017-01-17T13:52:44+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/index/404.html
+ERR: 模板不存在:./Application/Admin/View/Empty/404.html
+

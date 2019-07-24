@@ -1,0 +1,153 @@
+[ 2017-01-11T11:26:37+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/DeptSort/addNew
+ERR: 非法操作:addNew
+
+[ 2017-01-11T11:27:05+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/DeptSort/deptNew
+ERR: 非法操作:deptNew
+
+[ 2017-01-11T11:34:48+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/DeptSort/newEdit/id/9
+ERR: 非法操作:newEdit
+
+[ 2017-01-11T11:34:52+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/DeptSort/newEdit/id/9
+ERR: 非法操作:newEdit
+
+[ 2017-01-11T13:42:26+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/addArti.html
+ERR: 无法加载控制器:Article
+
+[ 2017-01-11T13:42:27+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 无法加载控制器:Article
+
+[ 2017-01-11T13:42:28+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/addArti.html
+ERR: 无法加载控制器:Article
+
+[ 2017-01-11T13:42:28+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 无法加载控制器:Article
+
+[ 2017-01-11T13:44:50+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/addArti.html
+ERR: 非法操作:addArti
+
+[ 2017-01-11T13:47:10+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/addArti.html
+ERR: 模板不存在:./Application/Admin/View/Article/addArti.html
+
+[ 2017-01-11T14:08:21+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T14:08:22+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T14:15:11+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T14:24:18+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T14:35:08+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T14:37:55+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T14:52:25+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T14:53:43+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T14:57:23+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T15:08:41+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T15:08:43+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/ueditor.config.js
+ERR: 非法操作:ueditor.config.js
+
+[ 2017-01-11T15:08:43+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/ueditor.all.min.js
+ERR: 非法操作:ueditor.all.min.js
+
+[ 2017-01-11T15:08:43+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/lang/zh-cn/zh-cn.js
+ERR: 非法操作:lang
+
+[ 2017-01-11T15:09:02+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/ueditor.config.js
+ERR: 非法操作:ueditor.config.js
+
+[ 2017-01-11T15:09:02+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/ueditor.all.min.js
+ERR: 非法操作:ueditor.all.min.js
+
+[ 2017-01-11T15:09:02+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/lang/zh-cn/zh-cn.js
+ERR: 非法操作:lang
+
+[ 2017-01-11T15:09:12+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/ueditor.config.js
+ERR: 非法操作:ueditor.config.js
+
+[ 2017-01-11T15:09:12+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/ueditor.all.min.js
+ERR: 非法操作:ueditor.all.min.js
+
+[ 2017-01-11T15:09:12+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/lang/zh-cn/zh-cn.js
+ERR: 非法操作:lang
+
+[ 2017-01-11T15:10:45+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T15:10:45+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/ueditor.config.js
+ERR: 非法操作:ueditor.config.js
+
+[ 2017-01-11T15:10:45+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/ueditor.all.min.js
+ERR: 非法操作:ueditor.all.min.js
+
+[ 2017-01-11T15:10:45+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/lang/zh-cn/zh-cn.js
+ERR: 非法操作:lang
+
+[ 2017-01-11T15:12:35+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T15:25:02+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T15:31:28+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T15:31:40+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T16:46:41+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T16:57:10+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T21:51:58+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T21:53:10+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T21:57:31+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T22:03:03+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiList.html
+ERR: 模板不存在:./Application/Admin/View/Article/artiList.html
+
+[ 2017-01-11T22:10:31+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/css/style.css
+ERR: 非法操作:css
+
+[ 2017-01-11T22:10:31+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/bower_components/jquery/dist/jquery.min.js
+ERR: 非法操作:bower_components
+
+[ 2017-01-11T22:10:31+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/plugin/Font-Awesome/css/font-awesome.min.css
+ERR: 非法操作:plugin
+
+[ 2017-01-11T22:10:31+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 非法操作:bower_components
+
+[ 2017-01-11T22:10:31+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/bower_components/bootstrap/dist/css/bootstrap.min.css
+ERR: 非法操作:bower_components
+
+[ 2017-01-11T22:10:31+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/js/index.js
+ERR: 非法操作:js
+
+[ 2017-01-11T22:10:31+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 非法操作:bower_components
+
+[ 2017-01-11T22:10:31+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/article/js/index.js
+ERR: 非法操作:js
+

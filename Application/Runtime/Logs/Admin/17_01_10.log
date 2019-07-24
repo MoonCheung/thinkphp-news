@@ -1,0 +1,9 @@
+[ 2017-01-10T22:12:57+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/DeptSort/addDept.html
+ERR: 模板不存在:./Application/Admin/View/DeptSort/addDept.html
+
+[ 2017-01-10T22:23:32+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/DeptSort/newDel/id/1
+ERR: 非法操作:newDel
+
+[ 2017-01-10T22:26:11+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/DeptSort/newDel/id/1
+ERR: 非法操作:newDel
+

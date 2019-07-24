@@ -1,0 +1,15 @@
+[ 2017-01-14T13:43:36+08:00 ] 127.0.0.1 /project/tp_boot/admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-01-14T21:42:32+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/showList.html
+ERR: 非法操作:showList
+
+[ 2017-01-14T21:42:34+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/showList.html
+ERR: 非法操作:showList
+
+[ 2017-01-14T21:43:36+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/New/addNew
+ERR: 非法操作:addNew
+
+[ 2017-01-14T23:07:17+08:00 ] 127.0.0.1 /project/tp_boot/admin/home.html
+ERR: 无法加载控制器:Home
+

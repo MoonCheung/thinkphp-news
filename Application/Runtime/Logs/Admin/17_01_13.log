@@ -1,0 +1,78 @@
+[ 2017-01-13T13:50:55+08:00 ] 127.0.0.1 /project/tp_boot/admin/artidel/id
+ERR: 无法加载控制器:Artidel
+
+[ 2017-01-13T13:51:03+08:00 ] 127.0.0.1 /project/tp_boot/admin/artidel/
+ERR: 无法加载控制器:Artidel
+
+[ 2017-01-13T13:51:57+08:00 ] 127.0.0.1 /project/tp_boot/admin/index.php
+ERR: 无法加载控制器:Index.php
+
+[ 2017-01-13T13:52:21+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/artidel/
+ERR: 无法加载控制器:Artidel
+
+[ 2017-01-13T13:53:21+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/artidel/
+ERR: 无法加载控制器:Artidel
+
+[ 2017-01-13T13:53:23+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/artidel/
+ERR: 无法加载控制器:Artidel
+
+[ 2017-01-13T13:53:24+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/artidel/
+ERR: 无法加载控制器:Artidel
+
+[ 2017-01-13T14:03:55+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artidel/id/31
+ERR: Think\Controller:succuss方法不存在！
+
+[ 2017-01-13T14:57:04+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/newEdit/id/37
+ERR: 非法操作:newEdit
+
+[ 2017-01-13T15:07:39+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/newEdit/id/37
+ERR: 非法操作:newEdit
+
+[ 2017-01-13T16:15:11+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiEdit/id/38
+ERR: 1054:Unknown column 'tp1.cateid' in 'on clause'
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename FROM tp_cate tp1 INNER JOIN tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=38 ) 
+
+[ 2017-01-13T16:16:49+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiEdit/id/38
+ERR: 1054:Unknown column 'tp1.cateid' in 'on clause'
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename FROM tp_cate tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=38 ) 
+
+[ 2017-01-13T16:18:00+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiEdit/id/38
+ERR: 1146:Table 'test.tp_' doesn't exist
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename FROM tp_ tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=38 ) 
+
+[ 2017-01-13T16:19:23+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiEdit/id/38
+ERR: 1146:Table 'test.tp_' doesn't exist
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename FROM tp_ tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=38 ) 
+
+[ 2017-01-13T16:19:23+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiEdit/id/38
+ERR: 1146:Table 'test.tp_' doesn't exist
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename FROM tp_ tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=38 ) 
+
+[ 2017-01-13T16:55:57+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiEdit/id/38
+ERR: 1146:Table 'test.tp_' doesn't exist
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename FROM tp_ tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=38 ) 
+
+[ 2017-01-13T16:55:58+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiEdit/id/38
+ERR: 1146:Table 'test.tp_' doesn't exist
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename FROM tp_ tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=38 ) 
+
+[ 2017-01-13T16:56:08+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiEdit/id/38
+ERR: 1146:Table 'test.tp_' doesn't exist
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename as catename FROM tp_ tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=38 ) 
+
+[ 2017-01-13T16:59:18+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiEdit/id/38
+ERR: 1146:Table 'test.tp_' doesn't exist
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename as catename FROM tp_ tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=38 ) 
+
+[ 2017-01-13T16:59:20+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiEdit/id/38
+ERR: 1146:Table 'test.tp_' doesn't exist
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename as catename FROM tp_ tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=38 ) 
+
+[ 2017-01-13T16:59:21+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiEdit/id/38
+ERR: 1146:Table 'test.tp_' doesn't exist
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename as catename FROM tp_ tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=38 ) 
+
+[ 2017-01-13T16:59:37+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/Article/artiEdit/id/38
+ERR: 1146:Table 'test.tp_' doesn't exist
+ [ SQL语句 ] : SELECT tp1.*,tp2.catename as catename FROM tp_ tp1 left join tp_cate as tp2 on tp1.cateid = tp2.id  WHERE ( tp1.id=38 ) 
+

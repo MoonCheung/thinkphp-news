@@ -1,0 +1,171 @@
+[ 2017-01-06T11:07:31+08:00 ] 127.0.0.1 /project/tp_boot/admin/index/showList.html
+ERR: 非法操作:showList
+
+[ 2017-01-06T19:56:13+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/newSort/showList.html
+ERR: 无法加载控制器:NewSort
+
+[ 2017-01-06T19:56:14+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/newSort/add.html
+ERR: 无法加载控制器:NewSort
+
+[ 2017-01-06T19:56:16+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/add.html
+ERR: 无法加载控制器:New
+
+[ 2017-01-06T19:56:16+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/showList.html
+ERR: 无法加载控制器:New
+
+[ 2017-01-06T19:56:17+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/add.html
+ERR: 无法加载控制器:New
+
+[ 2017-01-06T20:02:55+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/showList.html
+ERR: 无法加载控制器:New
+
+[ 2017-01-06T20:02:57+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/newSort/showList.html
+ERR: 无法加载控制器:NewSort
+
+[ 2017-01-06T20:02:57+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/newSort/add.html
+ERR: 无法加载控制器:NewSort
+
+[ 2017-01-06T20:04:24+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/add.html
+ERR: 无法加载控制器:New
+
+[ 2017-01-06T20:20:51+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/add.html
+ERR: 模板不存在:./Application/Admin/View/New/add.html
+
+[ 2017-01-06T20:20:52+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/showList.html
+ERR: 模板不存在:./Application/Admin/View/New/showList.html
+
+[ 2017-01-06T20:20:53+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/add.html
+ERR: 模板不存在:./Application/Admin/View/New/add.html
+
+[ 2017-01-06T20:21:25+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/plugin/Font-Awesome/css/font-awesome.min.css
+ERR: 非法操作:plugin
+
+[ 2017-01-06T20:21:25+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/bower_components/bootstrap/dist/css/bootstrap.min.css
+ERR: 非法操作:bower_components
+
+[ 2017-01-06T20:21:25+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/css/style.css
+ERR: 非法操作:css
+
+[ 2017-01-06T20:21:25+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/bower_components/jquery/dist/jquery.min.js
+ERR: 非法操作:bower_components
+
+[ 2017-01-06T20:21:25+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/js/index.js
+ERR: 非法操作:js
+
+[ 2017-01-06T20:21:25+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 非法操作:bower_components
+
+[ 2017-01-06T20:21:25+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/js/index.js
+ERR: 非法操作:js
+
+[ 2017-01-06T20:21:27+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/bower_components/jquery/dist/jquery.min.js
+ERR: 非法操作:bower_components
+
+[ 2017-01-06T20:21:27+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/js/index.js
+ERR: 非法操作:js
+
+[ 2017-01-06T20:21:27+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/bower_components/bootstrap/dist/css/bootstrap.min.css
+ERR: 非法操作:bower_components
+
+[ 2017-01-06T20:21:27+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/plugin/Font-Awesome/css/font-awesome.min.css
+ERR: 非法操作:plugin
+
+[ 2017-01-06T20:21:27+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/css/style.css
+ERR: 非法操作:css
+
+[ 2017-01-06T20:21:27+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 非法操作:bower_components
+
+[ 2017-01-06T20:21:27+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/js/index.js
+ERR: 非法操作:js
+
+[ 2017-01-06T20:21:30+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/js/index.js
+ERR: 非法操作:js
+
+[ 2017-01-06T20:21:30+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 非法操作:bower_components
+
+[ 2017-01-06T20:21:30+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/css/style.css
+ERR: 非法操作:css
+
+[ 2017-01-06T20:21:30+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/plugin/Font-Awesome/css/font-awesome.min.css
+ERR: 非法操作:plugin
+
+[ 2017-01-06T20:21:30+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/bower_components/jquery/dist/jquery.min.js
+ERR: 非法操作:bower_components
+
+[ 2017-01-06T20:21:30+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/bower_components/bootstrap/dist/css/bootstrap.min.css
+ERR: 非法操作:bower_components
+
+[ 2017-01-06T20:21:30+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 非法操作:bower_components
+
+[ 2017-01-06T20:21:30+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/js/index.js
+ERR: 非法操作:js
+
+[ 2017-01-06T20:22:50+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 非法操作:bower_components
+
+[ 2017-01-06T20:22:50+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/js/index.js
+ERR: 非法操作:js
+
+[ 2017-01-06T20:22:50+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/bower_components/jquery/dist/jquery.min.js
+ERR: 非法操作:bower_components
+
+[ 2017-01-06T20:22:50+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/css/style.css
+ERR: 非法操作:css
+
+[ 2017-01-06T20:22:50+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/plugin/Font-Awesome/css/font-awesome.min.css
+ERR: 非法操作:plugin
+
+[ 2017-01-06T20:22:50+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/bower_components/bootstrap/dist/css/bootstrap.min.css
+ERR: 非法操作:bower_components
+
+[ 2017-01-06T20:22:50+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 非法操作:bower_components
+
+[ 2017-01-06T20:22:50+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/js/index.js
+ERR: 非法操作:js
+
+[ 2017-01-06T20:36:15+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/add.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-01-06T20:36:46+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/add.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-01-06T20:46:51+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/new/add.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-01-06T20:48:20+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/newSort/add.html
+ERR: 无法加载控制器:NewSort
+
+[ 2017-01-06T20:48:22+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/newSort/showList.html
+ERR: 无法加载控制器:NewSort
+
+[ 2017-01-06T20:48:22+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/newSort/add.html
+ERR: 无法加载控制器:NewSort
+
+[ 2017-01-06T21:20:15+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/newSort/addNew.html
+ERR: 无法加载控制器:NewSort
+
+[ 2017-01-06T21:20:16+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/newSort/addDept.html
+ERR: 无法加载控制器:NewSort
+
+[ 2017-01-06T21:20:17+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/newSort/addNew.html
+ERR: 无法加载控制器:NewSort
+
+[ 2017-01-06T21:20:18+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/newSort/addDept.html
+ERR: 无法加载控制器:NewSort
+
+[ 2017-01-06T21:20:18+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/newSort/addNew.html
+ERR: 无法加载控制器:NewSort
+
+[ 2017-01-06T21:20:19+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/newSort/addDept.html
+ERR: 无法加载控制器:NewSort
+
+[ 2017-01-06T21:23:48+08:00 ] 127.0.0.1 /project/tp_boot/index.php/Admin/newSort/addNew.html
+ERR: 模板不存在:./Application/Admin/View/NewSort/addNew.html
+
+[ 2017-01-06T22:51:01+08:00 ] 127.0.0.1 /project/tp_boot/admin/new/
+ERR: 非法操作:index
+
