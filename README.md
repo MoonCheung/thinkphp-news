@@ -40,20 +40,20 @@ mysql> source tp_new.sql;
 
 ### 新闻首页
 
-![front-desk](https://img.ikmoons.com/thinkphp_news.png)
+![front-desk](https://static.ikmoons.com/thinkphp_news.png)
 
 ### 新闻详情页
 
-![front-desk](https://img.ikmoons.com/thinkphp_news1.png)
+![front-desk](https://static.ikmoons.com/thinkphp_news1.png)
 
 ### 新闻后台
 
-![backstage](https://img.ikmoons.com/thinkphp_news2.png)
+![backstage](https://static.ikmoons.com/thinkphp_news2.png)
 
 ### 文章管理
 
-![backstage](https://img.ikmoons.com/thinkphp_news3.png)
+![backstage](https://static.ikmoons.com/thinkphp_news3.png)
 
 ### 轮播管理
 
-![backstage](https://img.ikmoons.com/thinkphp_news4.png)
+![backstage](https://static.ikmoons.com/thinkphp_news4.png)
